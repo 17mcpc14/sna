@@ -70,7 +70,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* NetworkX @ https://networkx.github.io/ for their enormous collection of classes and extensive documentation
+* Professor S.Durga Bhavana @ http://scis.uohyd.ac.in/People/profile/sdb_profile.php for the inspiration to take up this course and try these beautiful experiments.
 
