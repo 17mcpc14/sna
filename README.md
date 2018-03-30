@@ -15,7 +15,7 @@ What things you need to install the software and how to install them
 ```
 Python 3
 ```
-These exples need a minimum version of Python3 as these leverage the object oriented python implementation
+These examples need a minimum version of Python3 as these leverage the object oriented python implementation
 
 
 ```
@@ -41,34 +41,34 @@ Running program - Spectral decomposition algorithm for small (34 nodes) Karate C
 
 
 ```
-Running program - Spectral decomposition, K-Means algorithm for medium size (1000 nodes) power law cluster graph 
+Running program - Spectral decomposition, K-Means algorithm for medium size (1000 nodes) power law cluster graph
 ```
 
 1. Open Spyder
 2. Open spectral_medium.py
 3. Hit run
 
-## Running the programs command like
+## Running the programs command line
 
 To execute Spectral decomposition on a small (34 nodes) Karate Club network
 
-1. Run command `python3 spectral.py'
+1. Run command `python3 spectral.py`
 
 To execute Spectral decomposition, K-Means  on a medium (1000 nodes) power law cluster graph
- 
+
 2. Run command `python3 spectral_medium.py`
 
 ## Analysis of the experiments
 
-1. The Karate Club network is a fully connected network with low clustering, hence the plotted graph does not clearly give any intution into Cutset and potential sub graphs
+1. The Karate Club network is a fully connected network with low clustering, hence the plotted graph does not clearly give any intuition into Cutset and potential sub graphs
 
-2. The Power Law Cluster graph, as the name indicates, clearly demonstrates clusters and gives a intuitive visibility into potential intial clusters and subsequent clusters 
+2. The Power Law Cluster graph, as the name indicates, clearly demonstrates clusters and gives a intuitive visibility into potential initial clusters and subsequent clusters
 
-3. Both Eigen Value based Spectral decomposition algorithm as well as K-means algorithm result in very similar but not exactly equal clusters for K>=2
+3. Both Eigen Value based Spectral decomposition algorithm as well as K-means algorithm result in very similar but not exactly equal clusters for K >= 2
 
-4. Spectral decomposition takes low computation with GPU based matrix operations while K-means being in iterative algorithm takes slightly more time for K=2
+4. Spectral decomposition takes low computation with GPU based matrix operations while K-means being in iterative algorithm takes slightly more time for K = 2
 
-5. The eigen values and corresponding eigen vectors returned by Spectral decomposition are equal to the number of nodes of the graph G indicating that it is possible to split the graph from k clusters ranging from 1 to the #of nodes. 
+5. The eigen values and corresponding eigen vectors returned by Spectral decomposition are equal to the number of nodes of the graph G indicating that it is possible to split the graph from k clusters ranging from 1 to the #of nodes.
 
 ## Authors
 
@@ -83,5 +83,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * NetworkX @ https://networkx.github.io/ for their enormous collection of classes and extensive documentation
-* Professor S.Durga Bhavani madam @ http://scis.uohyd.ac.in/People/profile/sdb_profile.php for the inspiration to take up this course and try these beautiful experiments.
 
+* Professor S.Durga Bhavani madam @ http://scis.uohyd.ac.in/People/profile/sdb_profile.php for the inspiration to take up this course and try these beautiful experiments.
