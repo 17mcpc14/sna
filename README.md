@@ -48,6 +48,23 @@ Running program - Spectral decomposition, K-Means algorithm for medium size (100
 2. Open spectral_medium.py
 3. Hit run
 
+```
+Running program - Preferential attachment graphs for degree distribution, Katz centrality, Eigen Value centrality and Clustering coefficients
+```
+
+1. Open Spyder
+2. Open powergrow.py
+3. Hit run
+
+
+```
+Running program - Forest Fire models for degree distribution, Katz centrality, Eigen Value centrality and Clustering coefficients
+```
+
+1. Open Spyder
+2. Open gn.py
+3. Hit run
+
 ## Running the programs command line
 
 To execute Spectral decomposition on a small (34 nodes) Karate Club network
@@ -57,6 +74,14 @@ To execute Spectral decomposition on a small (34 nodes) Karate Club network
 To execute Spectral decomposition, K-Means  on a medium (1000 nodes) power law cluster graph
 
 2. Run command `python3 spectral_medium.py`
+
+To execute Forest Fire models for degree distribution, Katz centrality, Eigen Value centrality and Clustering coefficients
+
+3. Run command `python3 gn.py`
+
+To execute Preferential attachment models for degree distribution, Katz centrality, Eigen Value centrality and Clustering coefficients
+
+4. Run command `python3 powergrow.py`
 
 ## Analysis of the experiments
 
