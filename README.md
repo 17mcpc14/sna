@@ -83,6 +83,11 @@ To execute Preferential attachment models for degree distribution, Katz centrali
 
 4. Run command `python3 powergrow.py`
 
+To execute Degree Distribution Analysis for a Random graph, Social networking graph
+
+4. Run command `python3 random.py`
+
+
 ## Analysis of the experiments
 
 1. The Karate Club network is a fully connected network with low clustering, hence the plotted graph does not clearly give any intuition into Cutset and potential sub graphs
@@ -94,6 +99,8 @@ To execute Preferential attachment models for degree distribution, Katz centrali
 4. Spectral decomposition takes low computation with GPU based matrix operations while K-means being in iterative algorithm takes slightly more time for K = 2
 
 5. The eigen values and corresponding eigen vectors returned by Spectral decomposition are equal to the number of nodes of the graph G indicating that it is possible to split the graph from k clusters ranging from 1 to the #of nodes.
+
+6. Degree of distribution for a Social network is significantly different from a small world network or from a random network. For a social network, the degree distribution follows a Gamma distribution model while for other networks it follow a Normal distribution
 
 ## Authors
 
