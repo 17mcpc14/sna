@@ -104,7 +104,7 @@ To execute Degree Distribution Analysis for a Random graph, Social networking gr
 
 ## Authors
 
-* **Prasad Bhavana** - *Initial work* - (https://github.com/17mcpc14)
+* **17MCPC14** - *Initial work* - (https://github.com/17mcpc14)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -115,5 +115,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * NetworkX @ https://networkx.github.io/ for their enormous collection of classes and extensive documentation
-
-* Professor S.Durga Bhavani madam @ http://scis.uohyd.ac.in/People/profile/sdb_profile.php for the inspiration to take up this course and try these beautiful experiments.
